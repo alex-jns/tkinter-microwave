@@ -81,6 +81,8 @@ def countdown():
         minutes -= 1
         if minutes < 0:
             minutes = 0
+            long_beep()
+            long_beep()
             return
         else:
             seconds = 59
@@ -142,6 +144,11 @@ def reset_button():
 def beep():
     freq = 2000
     dur = 300
+    winsound.Beep(freq, dur)
+
+def long_beep():
+    freq = 1500
+    dur = 500
     winsound.Beep(freq, dur)
 
 # Create a Tkinter instance
