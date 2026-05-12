@@ -9,6 +9,8 @@ An educational Python interface meant to mimic a real microwave. Demonstrates ba
 - **String manipulation** — String manipulation and casting to keep track of minutes and seconds.
 - **Sound generation** — Using winsound to play tones at specific frequencies for a set duration.
 
+<img width="776" height="369" alt="screenshot" src="https://github.com/user-attachments/assets/d2bf1648-9791-4970-a8ed-b5b198daa345" />
+
 # Features
 - **Start / Stop Controls** — Start a countdown timer and cancel it mid-cycle at any time.
 - **Live Countdown Display** — The timer updates in real time, showing remaining minutes and seconds in `MM:SS` format.
